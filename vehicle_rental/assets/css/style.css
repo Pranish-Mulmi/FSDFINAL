@@ -1,0 +1,134 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header nav a {
+  color: #fff;
+  margin-right: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: background 0.3s, color 0.3s;
+}
+
+header nav a:hover {
+  background: rgba(255,255,255,0.2);
+  color: #ffd700;
+}
+
+main {
+  padding: 24px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 14px;
+  text-align: left;
+}
+
+th {
+  background: #2a5298;
+  color: #fff;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background: #f9fbff;
+}
+
+tr:hover {
+  background: #eef4ff;
+  transition: background 0.3s;
+}
+
+label {
+  display: block;
+  margin-top: 14px;
+  font-weight: 600;
+  color: #2a5298;
+}
+
+input, select, button {
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus, select:focus {
+  border-color: #2a5298;
+  outline: none;
+  box-shadow: 0 0 6px rgba(42,82,152,0.4);
+}
+
+button {
+  background: #2a5298;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #1e3c72;
+  transform: translateY(-2px);
+}
+
+.error {
+  color: #c0392b;
+  font-weight: 600;
+}
+
+.success {
+  color: #27ae60;
+  font-weight: 600;
+}
+
+.info {
+  color: #2980b9;
+  font-weight: 600;
+}
+
+footer {
+  background: #1e3c72;
+  color: #ddd;
+  text-align: center;
+  padding: 14px;
+  margin-top: 30px;
+  font-size: 0.9rem;
+}
